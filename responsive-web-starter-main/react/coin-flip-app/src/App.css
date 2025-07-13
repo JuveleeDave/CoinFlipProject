@@ -1,0 +1,26 @@
+.coin-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.coin {
+  width: 120px;
+  transition: transform 0.6s ease-in-out;
+}
+
+.flipping {
+  transform: rotateY(1800deg);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 22px;
+  margin-top: 12px;
+  color: #444;
+}
